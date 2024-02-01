@@ -1,4 +1,4 @@
-CREATE USER docker;
+ERCREATE USER docker;
 
 GRANT ALL PRIVILEGES ON DATABASE db_covoit TO docker;
 --
@@ -170,7 +170,7 @@ CREATE TABLE formation(
 
 CREATE TABLE vehicule(
    Id_vehicule SERIAL,
-   nombre_places INT,
+   nombre_places INTEGER,
    Id_trajet INTEGER,
    Id_type_vehicule INTEGER NOT NULL,
    PRIMARY KEY(Id_vehicule),
