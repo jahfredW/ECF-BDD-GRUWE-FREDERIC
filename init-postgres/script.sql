@@ -170,7 +170,7 @@ CREATE TABLE formation(
 
 CREATE TABLE vehicule(
    Id_vehicule SERIAL,
-   nombre_places VARCHAR(50) ,
+   nombre_places INT,
    Id_trajet INTEGER,
    Id_type_vehicule INTEGER NOT NULL,
    PRIMARY KEY(Id_vehicule),
